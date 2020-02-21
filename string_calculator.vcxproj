@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sourses\header.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sourses\calculation.cpp" />
+    <ClCompile Include="sourses\main.cpp" />
+    <ClCompile Include="sourses\struct.cpp" />
+    <ClCompile Include="sourses\wizard_string.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{9E04CEFC-5F5E-48B8-BDF4-0369239F70FA}</ProjectGuid>
@@ -122,15 +131,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="calculation.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="struct.cpp" />
-    <ClCompile Include="wizard_string.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="header.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

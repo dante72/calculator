@@ -38,7 +38,7 @@ bool check_num(char ch)
 
 int char_to_int(char* ch)
 {
-	float lng, summ;
+	int lng, summ;
 	int j;
 	lng = numb_long(ch);
 	//printf("%d", lng);
